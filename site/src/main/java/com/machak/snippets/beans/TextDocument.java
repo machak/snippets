@@ -8,10 +8,7 @@ import org.hippoecm.hst.content.beans.standard.HippoHtml;
 public class TextDocument extends BaseDocument{
 
 
-    public String getTitle() {
-        return getProperty("snippets:title");
-    }
-    
+
     public String getSummary() {
         return getProperty("snippets:summary");
     }
