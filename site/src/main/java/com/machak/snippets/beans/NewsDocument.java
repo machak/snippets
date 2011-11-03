@@ -9,10 +9,7 @@ import org.hippoecm.hst.content.beans.standard.HippoHtml;
 @Node(jcrType = "snippets:newsdocument")
 public class NewsDocument extends BaseDocument {
 
-    public String getTitle() {
-        return getProperty("snippets:title");
-    }
-    
+
     public String getSummary() {
         return getProperty("snippets:summary");
     }
