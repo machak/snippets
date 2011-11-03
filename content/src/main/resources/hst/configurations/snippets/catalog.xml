@@ -12,7 +12,7 @@
         <sv:value>hst:containeritemcomponent</sv:value>
       </sv:property>
       <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>com.machak.snippets.components.List</sv:value>
+        <sv:value>com.machak.snippets.components.ListComponent</sv:value>
       </sv:property>
       <sv:property sv:name="hst:parameternames" sv:type="String">
         <sv:value>title</sv:value>

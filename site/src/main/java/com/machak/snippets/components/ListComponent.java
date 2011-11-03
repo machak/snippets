@@ -13,9 +13,9 @@ import org.slf4j.LoggerFactory;
 
 
 @ParametersInfo(type = ListInfo.class)
-public class List extends BaseComponent {
+public class ListComponent extends BaseComponent {
 
-    public static final Logger log = LoggerFactory.getLogger(List.class);
+    public static final Logger log = LoggerFactory.getLogger(ListComponent.class);
 
     @Override
     public void doBeforeRender(HstRequest request, HstResponse response) throws HstComponentException {
@@ -25,7 +25,7 @@ public class List extends BaseComponent {
 
        String scope = info.getScope();
        if(scope == null) {
-           throw new HstComponentException("Scope is not allowed to be null for a List component. Cannot create a list");
+           throw new HstComponentException("Scope is not allowed to be null for a ListComponent component. Cannot create a list");
        }
 
        scopeBean = getSiteContentBaseBean(request);
